@@ -15,6 +15,7 @@ class Login(Screen):
     def __init__(self,**kwargs):
         super(Login, self).__init__()
         self.DB=Database()
+        print("hello")
 
 
     def login(self):
